@@ -10,5 +10,5 @@ on:
 jobs:
   runs:
     runs-on: ubuntu-latest
-      steps:
-        - run: echo "${{ inputs.greeting }}"
+    steps:
+      - run: echo "${{ inputs.greeting }}"
