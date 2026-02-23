@@ -3,6 +3,6 @@ on: push
 jobs:
   share:
     runs-on: ubuntu-latest
-    stesps:
+    steps:
       - run: echo "RESULT=hello" >> "${GITHUB_ENV}"
       - run: echo "${RESULT}"
